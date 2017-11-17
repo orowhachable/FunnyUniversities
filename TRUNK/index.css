@@ -1,0 +1,95 @@
+@charset "utf-8";
+
+*{
+    box-sizing: border-box;
+}
+html,body{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    color:#333333;
+    font-family: 'Helvetica Neue', Helvetica, Arial, Verdana, 'ヒラギノ角ゴ ProN W3', 'Hiragino Kaku Gothic ProN', 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
+}
+
+header {
+    width: 100%;
+    height: 75px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,255,0.3);
+    padding: 15px 80px;
+
+    z-index: 90;
+}
+
+#logo {
+    color: #fff;
+    font-size: 45px;
+    line-height: 1.0em;
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+}
+#menu {
+    position: absolute;
+    top: 19px;
+    right: 80px;
+    height: 36px;
+}
+#menu ul {
+    margin: 0;
+    padding: 0;
+}
+#menu li {
+    list-style: none;
+    float: left;
+}
+#menu li a {
+    display: block;
+    border-radius: 20px;
+    height: 36px;
+    line-height: 36px;
+    color: #fff;
+    margin-left: 20px;
+    padding: 0 20px;
+    text-decoration: none;
+
+    transition: background-color 0.3s ease;
+}
+#menu li a:hover {
+    background-color: #fff;
+    color: rgb(64,64,200);
+}
+
+#main-image {
+    width: 100%;
+    height: 100%;
+    background-image: url('images/title2.png');
+    background-size: cover;
+    background-position: center;
+}
+
+#title {
+    font-size: 60px;
+    text-align: center;
+    color: white;
+    height: 100%;
+    line-height: 100vh;
+}
+
+#bottun-overrap ul{
+  list-style-type: none;
+}
+
+#bottun-overrap ul li{
+  display: inline-block;
+  width: 24%;
+  text-align: center;
+}
+
+#bottun-overrap ul li a:hover{
+  opacity:0.5;
+}
